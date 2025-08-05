@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "build c:\\Users\\busra.tekel\\Desktop\\ProjectsofDoquHome\\TaskManager\\TaskManager\\WebApplication1\\WebApplication1.csproj",
+			"file": "c:\\Users\\busra.tekel\\Desktop\\ProjectsofDoquHome\\TaskManager\\TaskManager\\WebApplication1\\WebApplication1.csproj",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "dotnet: build c:\\Users\\busra.tekel\\Desktop\\ProjectsofDoquHome\\TaskManager\\TaskManager\\WebApplication1\\WebApplication1.csproj"
+		}
+	]
+}
