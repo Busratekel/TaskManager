@@ -30,6 +30,19 @@ namespace Services
             {
                 try
                 {
+                    var now = DateTime.Now;
+                    var nextRun = now.Date.AddHours(9); // Her gün saat 09:00'da çalışacak
+                    
+                    // Eğer şu an saat 09:00'dan sonraysa, bir sonraki günün 09:00'ını bekle
+                    if (now > nextRun)
+                    {
+                        nextRun = nextRun.AddDays(1);
+                    }
+
+                    var delay = nextRun - now;
+                    _logger.LogInformation("Bir sonraki çalışma zamanı: {NextRun}", nextRun);
+                    await Task.Delay(delay, stoppingToken);
+
                     using (var scope = _scopeFactory.CreateScope())
                     {
                         _logger.LogInformation("BirthdayService çalışmaya başladı - {Time}", DateTime.Now);
@@ -69,9 +82,6 @@ namespace Services
                 {
                     _logger.LogError(ex, "BirthdayService'de hata oluştu");
                 }
-
-                _logger.LogInformation("BirthdayService 24 saat bekleyecek");
-                await Task.Delay(TimeSpan.FromDays(1), stoppingToken);
             }
         }
     }

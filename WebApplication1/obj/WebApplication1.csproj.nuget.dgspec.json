@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\busra.tekel\\Desktop\\TaskManager\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\busra.tekel\\Desktop\\ProjectsofDoquHome\\TaskManager\\TaskManager\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\busra.tekel\\Desktop\\TaskManager\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\busra.tekel\\Desktop\\ProjectsofDoquHome\\TaskManager\\TaskManager\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\busra.tekel\\Desktop\\TaskManager\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\busra.tekel\\Desktop\\ProjectsofDoquHome\\TaskManager\\TaskManager\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\busra.tekel\\Desktop\\TaskManager\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\busra.tekel\\Desktop\\ProjectsofDoquHome\\TaskManager\\TaskManager\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\busra.tekel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\busra.tekel\\Desktop\\TaskManager\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\busra.tekel\\Desktop\\ProjectsofDoquHome\\TaskManager\\TaskManager\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\busra.tekel\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
